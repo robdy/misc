@@ -1,3 +1,22 @@
+<#
+	.SYNOPSIS
+	Unpins provided applications from the taskbar
+
+	.DESCRIPTION
+	Version: 0.1
+	Unpins provided applications from the taskbar
+
+	.NOTES
+	Author: Robert Dyjas https://dyjas.cc
+	Function based on StackOverflow answer:
+	https://stackoverflow.com/a/45152368/9902555
+
+	Known issues:
+	-
+	.EXAMPLE
+	UnpinApp.ps1 -AppNames "Internet Explorer", "Microsoft Edge"
+#>
+
 param(
 	[Parameter(ValueFromPipeline = $true)]
 	[string[]]
