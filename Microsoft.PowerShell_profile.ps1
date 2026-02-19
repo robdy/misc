@@ -14,3 +14,10 @@ $advPrompt = {function Prompt {
 }}
 
 . $advPrompt
+
+# Default param values
+$PSDefaultParameterValues = @{
+  "Connect-ExchangeOnline:ShowBanner" = $false
+  "Connect-MgGraph:NoWelcome" = $true
+  "Install-Module:Scope" = "CurrentUser"
+}
