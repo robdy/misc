@@ -15,3 +15,11 @@ The flow archives all the Service Health notifications received before the curre
 [💡Read more](https://robdy.io/cleanup-service-health)
 
 [ArchiveOldServiceHealthNotifications.zip](ArchiveOldServiceHealthNotifications.zip)
+
+## Cleanup completed To Do tasks
+
+The flow gets all completed tasks that are older than 30 days and deletes them.
+
+[💡Read more](https://robdy.io/cleaning-up-completed-todo-tasks)
+
+[CleanupCompletedOldTasks.zip](CleanupCompletedOldTasks.zip)
